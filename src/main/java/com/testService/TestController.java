@@ -15,8 +15,13 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin
 public class TestController {
 
-    @GetMapping("/home")
-    public String homeRequest() {
-        return "Hello World!";
-    }
+	@GetMapping("/home")
+	public String homeRequest() {
+		return "Hello World!";
+	}
+
+	@GetMapping("/teste")
+	public String testeRequest() {
+		return "Teste Request";
+	}
 }
