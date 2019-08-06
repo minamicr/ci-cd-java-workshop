@@ -155,10 +155,9 @@
     <property name="fileExtensions" value="java"/>
   </module>
 
-  <!-- Whitespace 
   <module name="FileTabCharacter">
     <property name="eachLine" value="false"/>
-  </module> -->
+  </module>
 
   <module name="TreeWalker">
     <property name="tabWidth" value="4"/>
